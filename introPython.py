@@ -1,44 +1,31 @@
-# Comentario de una línea
-# Todo lo que va después es ignorado por el
-# interprete de Python
-
-# Variables: Espacio de memoria, con nombre, donde guardo valores
-# Los nombres de variables deben ser cortos, descriptivos, NO TENER ESPACIOS
-# EN BLANCO ni carácteres especiales, no deben empezar por un número
-
-#Descriptivo significa que representa la categoría del dato que quiero guardar
-# En Python las variables pueden contener cualquier dato de tipo primitivo
-# números (entero, reales), cadenas de carácteres (string), booleanos (True, False) 
-# caracteres (letras).
-
-variable= 1
-
-variable= 'Juventud divino tesoro, te vas para no volver, cuando quiero llorar no lloro y a veces lloro sin querer'
-
-variable=True
-
-variable= 'a'
-
-variable= 3.1415926535
-
-# Para asignar un valor a la variable se usa el operador =
-
-
-#Operadores: Mecanismo para obtener un dato a partir de otros datos.
-# Los datos que intervienen se llaman operandos.
-
-#Aritméticos: + - * / %
-#De comparación: Retornan True or False. > < >= <= == !=
-#Los de lógica booleana: OR AND. Retornan True o False de acuerdo a una
-#tabla de verdad. Los operandos siempre son booleanos (True or False)
-
-a= True
-b= False
-
-print(a and b)
 
 # Los operadores booleanos y de comparación son muy utilizados al 
 # definir condiciones
+
+
+# Sentencias de control de flujo: En general un programa se ejecuta 
+# línea por línea de manera secuencial. Se puede romper esa secuncialidad
+# empleando un conjunto de sentencias (expresiones) que permite:
+# 1. Seleccionar la ejecución de un bloque de código
+# 2. Repetir la ejecución de un bloque de código
+# 3. Seleccionar entre ejecutar un bloque de código u otro bloque de código
+# De esa manera podemos "romper" la secuencialidad
+# Principios del paradigma de programación estructurado
+
+# Sentencia if. Si se cumple una condición (se evalua como True) 
+# se ejecuta un bloque de código
+
+entrada=int(input("Cuántos años tiene?"))
+
+if entrada< 18:
+    print("Es un menor de edad.")
+else:
+    print("Ya está grande, deje de chillar")
+
+#Taller crear un programa en Python que genere un número aleatorio
+#entre 2 y 12. Si el número es 7 imprimir ganó si no imprimir deje el juego
+
+
 
 
 
