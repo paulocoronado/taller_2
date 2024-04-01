@@ -4,7 +4,7 @@
 
 
 # Sentencias de control de flujo: En general un programa se ejecuta 
-# línea por línea de manera secuencial. Se puede romper esa secuncialidad
+# línea por línea de manera secuencial. Se puede romper esa secuencialidad
 # empleando un conjunto de sentencias (expresiones) que permite:
 # 1. Seleccionar la ejecución de un bloque de código
 # 2. Repetir la ejecución de un bloque de código
