@@ -2,16 +2,18 @@
 # while <condición_verdadera>:
 #    cuerpo del ciclo
 # Condiciones son: expresiones booleanas (or, and) y operaciones de comparación
-# Ciclos controlados por el valor de una variable
+# Ciclos controlados por un evento
 
-import random
 a=0
-
-while a != 5:    
-    a= random.randint(1,10)
-    print(a)
+while 1==1:
     
-print("se acabó")
+    a= int(input("Ingrese un número"))
+    
+    if a==10:
+        break
+        
+    
+    
 
 
 
